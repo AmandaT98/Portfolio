@@ -1,0 +1,78 @@
+.about-container {
+    background: #f4f4f4;
+    width: 90%;
+    display: flex;
+    flex-direction: column; /* Staplar elementen vertikalt */
+    align-items: center; 
+    margin: 20px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .about-container h1 {
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Wrapper för text och bild */
+  .about-content {
+    display: flex;
+    align-items: flex-start; /* Justerar text och bild upptill */
+    justify-content: space-between; /* Skapar mellanrum mellan text och bild */
+    width: 100%;
+    gap: 40px;
+  }
+  
+  /* Textsektionen */
+  .description p, h2, h3 {
+    text-align: left; /* Justerar texten till vänster */
+    font-size: 16px;
+    margin-left: 100px;
+  }
+  
+  /* Bild och sociala länkar i en kolumn */
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrerar bild och sociala länkar */
+  }
+  
+  /* Styling för bilden */
+  .about-image {
+    width: 200px;
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px; /* Avstånd mellan bild och sociala länkar */
+    margin-right: 50px;
+  }
+  
+  /* Styling för sociala länkar */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 50px;
+  }
+  
+  /* Styling för ikoner */
+  .social-links a {
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover-effekt */
+  .social-links a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
+  
+
+  
+ 
+
+   

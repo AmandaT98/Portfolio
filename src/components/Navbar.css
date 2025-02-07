@@ -1,0 +1,33 @@
+/* Default navbar */
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Dark mode styling */
+  nav.dark {
+    background-color: black;
+  }
+  
+  /* Styling för länkarna */
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  /* Hover effekt */
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }
+  

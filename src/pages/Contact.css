@@ -1,0 +1,12 @@
+.description1 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+
+}
